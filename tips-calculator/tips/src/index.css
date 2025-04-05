@@ -1,0 +1,14 @@
+.tool,
+.bill {
+  display: flex;
+  align-items: center;
+}
+
+.tool p,
+.bill p {
+  padding-right: 25px;
+}
+
+button {
+  margin: 25px 0;
+}
