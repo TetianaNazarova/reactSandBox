@@ -19,8 +19,8 @@ function Test() {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <StartRating
+    <App />
+    {/* <StartRating
       maxRating={5}
       messages={["Terrible", "Bad", "Ok", "Good", "Amazing"]}
     />
@@ -32,6 +32,6 @@ root.render(
       className="test"
     />
     <StartRating />
-    <Test />
+    <Test /> */}
   </React.StrictMode>
 );
